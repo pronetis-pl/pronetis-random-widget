@@ -1,5 +1,5 @@
 {
-  "name": "pronetis/pl-pronetis-random-widget",
+  "name": "pronetis/pronetis-random-widget",
   "description": "Magento 2 widget for displaying random products in a grid layout.",
   "type": "magento2-module",
   "license": "MIT",
