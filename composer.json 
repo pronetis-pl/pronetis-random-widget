@@ -1,0 +1,17 @@
+{
+  "name": "pronetis/pl-pronetis-random-widget",
+  "description": "Magento 2 widget for displaying random products in a grid layout.",
+  "type": "magento2-module",
+  "license": "MIT",
+  "version": "1.0.0",
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "magento/module-catalog-widget": "*"
+  },
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": {
+      "Pronetis\\RandomWidget\\": ""
+    }
+  }
+}

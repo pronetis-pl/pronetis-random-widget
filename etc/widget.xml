@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget_file.xsd">
+    <widget id="pronetis_random_products"
+            class="Pronetis\RandomWidget\Block\Widget\Random">
+        <label translate="true">Random Products</label>
+        <description translate="true">Displays a list of random products</description>
+        <parameters>
+            <parameter name="products_count" xsi:type="text" required="true" visible="true">
+                <label translate="true">Number of Products to Display</label>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>
